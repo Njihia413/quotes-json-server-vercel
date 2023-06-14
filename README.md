@@ -1,37 +1,60 @@
-## Deploy JSON Server to Vercel
+## Quotes Web App Backend 
 
-A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
+* This is the Backend Live Link for the Quotes Web App repository. 
 
-Demo from this repository: 
+## Live Link
+* https://quotes-json-server-vercel.vercel.app/quotes
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
-
-### How to use
-
-1. Click "**Use this template**" or clone this repository.
-2. Update or use the default [`db.json`](./db.json) in the repository.
-3. Sign Up or login into [Vercel](https://vercel.com).
-4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
-5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
-6. Wait until deployment is done, and your own JSON server is ready to serve!
-
-## Default `db.json`
+## Quotes Data in the `db.json`
 
 ```json
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+[
+  {
+    "id": 1,
+    "quote": "I would rather be a little nobody, than to be an evil somebody",
+    "author": "Abraham Lincoln",
+    "category": "Inspirational",
+    "likes": 2
+  },
+  {
+    "id": 2,
+    "quote": "In the middle of difficulty lies opportunity",
+    "author": "Albert Einstein",
+    "category": "Motivational",
+    "likes": 1
+  },
+  {
+    "id": 3,
+    "quote": "Courage is not having the strength to go on; it is going on when you don't have the strength",
+    "author": "Theodore Roosevelt",
+    "category": "Courage",
+    "likes": 0
+  },
+  {
+    "id": 4,
+    "quote": "“Always forgive your enemies - nothing annoys them so much",
+    "author": "Oscar Wilde",
+    "category": "Forgiveness",
+    "likes": 0
+  },
+  {
+    "id": 5,
+    "quote": "Love the life you live, live the life you love",
+    "author": "Bob Marley",
+    "category": "Love",
+    "likes": 0
+  },
+  {
+    "id": 6,
+    "quote": "Excellence is not an exception, it is a prevailing attitude",
+    "author": "Colin Powell",
+    "category": "Excellence",
+    "likes": 0
+  }
+]
 ```
 
-## Reference
+## Support and contact details
+* Email: developer.njihia@gmail.com
+* Phone: 0704592362
 
-1. https://github.com/typicode/json-server
-2. https://vercel.com
-3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
